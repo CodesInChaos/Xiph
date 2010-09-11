@@ -59,12 +59,12 @@
     <Compile Include="InteropHelpers\Errors.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="LowLevel\SpeexPreProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LowLevel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EasyOggVorbis\" />
-    <Folder Include="LowLevel\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
