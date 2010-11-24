@@ -6,3 +6,5 @@ bin
 obj
 Debug
 Release
+/Original/speex/lib/
+Release_*/
